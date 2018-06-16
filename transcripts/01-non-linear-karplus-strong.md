@@ -12,4 +12,6 @@ It is those imperfections, however, that provide realism and present a valuable 
 
 So, at the string boundary, after the delay line, we add a nonlinear allpass filter, that is, an allpass filter with modulatable coefficients. We start out by implementing a simple first order allpass filter as shown in this block diagram.
 
-We implement the modulation by specifying two coefficients we will use in an alternating manner. We switch between them using a rectangle wave. While this provides a glimpse of what we are able to do here, it sounds all too mechanical.
+We implement the modulation by specifying one coefficient first, and a sample and hold logic to multiply that coefficient. While this provides a glimpse of what we are able to do here, it sounds all too mechanical and predictable.
+
+We add a second coefficient and use both in an alternating manner, based on the zero crossings of the input. In other ways, whenever a zero crossing occurs, we switch the coefficient from one to the other. Since nonlinearities can introduce instability into a system, we minimize the probability of them occurring by modulating when the least amount of energy is in the system.
