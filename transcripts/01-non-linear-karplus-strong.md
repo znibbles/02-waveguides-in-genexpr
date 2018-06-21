@@ -17,7 +17,7 @@ So, at the string boundary, after the delay line, we add a nonlinear allpass fil
 
 We implement the modulation by specifying one coefficient first, and a sample and hold logic to multiply that coefficient. While this provides a glimpse of what we are able to do here, it is a more physically correct modeling we're after here, that is, a string terminated by a nonlinear spring, which can be modelled by two separate springs with different stiffness coefficients.
 
-Thus, we add a second coefficient to our allpass and use both in an alternating manner, based on the zero crossings of the input. In other ways, whenever a zero crossing occurs, we switch the coefficient from one to the other. Since nonlinearities can introduce instability into a system, we minimize the probability of them occurring by modulating when the least amount of energy is in the system.
+Thus, we add a second coefficient to our allpass and use both in an alternating manner, based on the zero crossings of the input. In other words, whenever a zero crossing occurs, we switch the coefficient from one to the other. Since nonlinearities can introduce instability into a system, we minimize the probability of them occurring by modulating when the least amount of energy is in the system.
 
 And here the fun part begins: Try experimenting with different combinations of excitation signals and modulators - but don't be surprised when the system grows unstable at some point, it has happened to me quite a few times ;)
 

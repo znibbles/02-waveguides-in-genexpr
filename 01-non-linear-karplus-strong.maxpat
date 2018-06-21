@@ -4,7 +4,7 @@
 		"appversion" : 		{
 			"major" : 7,
 			"minor" : 3,
-			"revision" : 4,
+			"revision" : 5,
 			"architecture" : "x86",
 			"modernui" : 1
 		}
@@ -46,7 +46,6 @@
 					"outlettype" : [ "", "bang" ],
 					"parameter_enable" : 0,
 					"patching_rect" : [ 536.0, 93.0, 50.0, 22.0 ],
-					"presentation_rect" : [ 536.0, 92.0, 0.0, 0.0 ],
 					"style" : ""
 				}
 
@@ -59,7 +58,6 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 536.0, 130.0, 41.0, 22.0 ],
-					"presentation_rect" : [ 536.0, 129.0, 0.0, 0.0 ],
 					"style" : "",
 					"text" : "a2 $1"
 				}
@@ -75,11 +73,11 @@
 					"patching_rect" : [ 591.0, 231.0, 100.0, 40.0 ],
 					"preset_data" : [ 						{
 							"number" : 1,
-							"data" : [ 5, "obj-34", "flonum", "float", 200.0, 5, "obj-9", "live.gain~", "float", -2.638816, 5, "<invalid>", "flonum", "float", 0.0, 5, "<invalid>", "flonum", "float", 0.0, 5, "<invalid>", "flonum", "float", 0.0, 5, "<invalid>", "number", "int", 0, 5, "obj-5", "number", "int", 36, 5, "obj-21", "flonum", "float", 0.7, 5, "obj-22", "flonum", "float", 0.98, 5, "obj-30", "flonum", "float", 0.96, 5, "obj-37", "toggle", "int", 1 ]
+							"data" : [ 5, "obj-34", "flonum", "float", 200.0, 5, "obj-9", "live.gain~", "float", -2.638816, 5, "obj-5", "number", "int", 36, 5, "obj-21", "flonum", "float", 0.7, 5, "obj-22", "flonum", "float", 0.98, 5, "obj-30", "flonum", "float", 0.96, 5, "obj-37", "toggle", "int", 1, 5, "obj-3", "flonum", "float", -0.949 ]
 						}
 , 						{
 							"number" : 2,
-							"data" : [ 5, "obj-34", "flonum", "float", 200.0, 5, "obj-9", "live.gain~", "float", 1.496938, 5, "obj-5", "number", "int", 60, 5, "obj-21", "flonum", "float", 0.108, 5, "obj-22", "flonum", "float", 0.991, 5, "obj-30", "flonum", "float", 0.96, 5, "obj-37", "toggle", "int", 1, 5, "obj-3", "flonum", "float", -0.949 ]
+							"data" : [ 5, "obj-34", "flonum", "float", 200.0, 5, "obj-9", "live.gain~", "float", -2.638816, 5, "obj-5", "number", "int", 60, 5, "obj-21", "flonum", "float", 0.255, 5, "obj-22", "flonum", "float", 0.988, 5, "obj-30", "flonum", "float", 0.96, 5, "obj-37", "toggle", "int", 1, 5, "obj-3", "flonum", "float", -0.949 ]
 						}
  ],
 					"style" : ""
@@ -258,7 +256,7 @@
 						"appversion" : 						{
 							"major" : 7,
 							"minor" : 3,
-							"revision" : 4,
+							"revision" : 5,
 							"architecture" : "x86",
 							"modernui" : 1
 						}
@@ -330,7 +328,7 @@
 										"appversion" : 										{
 											"major" : 7,
 											"minor" : 3,
-											"revision" : 4,
+											"revision" : 5,
 											"architecture" : "x86",
 											"modernui" : 1
 										}
@@ -1180,7 +1178,7 @@
 					"outlettype" : [ "signal", "signal", "", "float", "list" ],
 					"parameter_enable" : 1,
 					"patching_rect" : [ 31.0, 336.5, 123.0, 48.0 ],
-					"presentation_rect" : [ 0.0, 0.0, 50.0, 34.0 ],
+					"presentation_rect" : [ 0.0, 0.0, 50.0, 48.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
 							"parameter_longname" : "live.gain~",
@@ -1231,7 +1229,7 @@
 						"appversion" : 						{
 							"major" : 7,
 							"minor" : 3,
-							"revision" : 4,
+							"revision" : 5,
 							"architecture" : "x86",
 							"modernui" : 1
 						}
